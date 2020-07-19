@@ -1,4 +1,5 @@
-package com.lx.springcloud.service;
+package com.springcloud.service;
+
 
 import com.lx.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Param;

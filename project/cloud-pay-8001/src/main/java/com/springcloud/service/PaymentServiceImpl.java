@@ -1,18 +1,15 @@
-package com.lx.springcloud.service;
+package com.springcloud.service;
 
-
-import com.lx.springcloud.dao.PaymentDao;
 import com.lx.springcloud.entities.Payment;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.springcloud.dao.PaymentDao;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
-
 /**
  * @Author Johnson
- * @Date 2020/7/15
- * @Date 23:21
+ * @Date 2020/6/22
+ * @Date 12:27
  */
 @Service
 public class PaymentServiceImpl implements  PaymentService {
