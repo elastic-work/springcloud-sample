@@ -16,8 +16,9 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <modules>
-        <module>elasti-eureka-order</module>
+        <module>elastic-eureka-order</module>
         <module>cleastic-service</module>
+        <module>elastic-eureka-pay</module>
     </modules>
 
     <packaging>pom</packaging>
