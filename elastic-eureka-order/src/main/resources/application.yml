@@ -3,7 +3,7 @@ server:
 
 eureka:
   instance:
-    hostname:  ${spring.application.name} # eureka服务端的实例名称
+    hostname:  localhost # eureka服务端的实例名称
     instance-id: ${spring.application.name}:${server.port} # 指定实例ID,就不会显示主机名称
   client:
     registerWithEureka: true # 服务注册，false表示不将自已注册到Eureka服务中
