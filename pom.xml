@@ -17,7 +17,7 @@
 
     <modules>
         <module>elastic-eureka-order</module>
-        <module>cleastic-service</module>
+        <module>elastic-service</module>
         <module>elastic-eureka-pay</module>
     </modules>
 
