@@ -16,6 +16,6 @@ import java.util.List;
 public class EurekaPayController {
     @RequestMapping("queryAll")
     public List<String> queryAll(){
-        return Arrays.asList("1","2","3");
+        return Arrays.asList("pay-4","pay-5","pay-6");
     }
 }

@@ -9,8 +9,9 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @author: wfs
  * @Date: 2020/7/20 21:01
  * @Description:
+ * @EnableEurekaServer  标识一个Eureka Server 服务注册中心
  */
-@EnableEurekaServer //标识一个Eureka Server 服务注册中心
+@EnableEurekaServer
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
 public class EurekaOrderApplication {
     public static void main(String[] args) {
