@@ -1,4 +1,4 @@
-package com.elastic.eureka.pay;
+package com.elastic.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,12 +9,12 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * @author: wfs
  * @Date: 2020/7/20 21:01
  * @Description:
- * @EnableEurekaServer 标识一个Eureka Server 服务注册中心
+ * @EnableEurekaServer  标识一个Eureka Server 服务注册中心
  */
 @EnableEurekaServer
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
-public class EurekaPayApplication {
+public class EurekaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(EurekaPayApplication.class, args);
+        SpringApplication.run(EurekaApplication.class, args);
     }
 }

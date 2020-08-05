@@ -16,8 +16,11 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <modules>
+        <!-- 提供eureka 注册中心-->
+        <module>elastic-eureka</module>
+        <!-- 提供订单服务-->
         <module>elastic-eureka-order</module>
-        <module>cleastic-service</module>
+        <!-- 提供支付服务-->
         <module>elastic-eureka-pay</module>
     </modules>
 
