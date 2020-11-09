@@ -14,7 +14,7 @@ eureka:
       #集群版
       defaultZone:  http://localhost:6003/eureka/
   server:
-    enable-self-preservation: true # 禁用自我保护机制
+    enable-self-preservation: false # 禁用自我保护机制
 spring:
   application:
     name: elastic-pay
